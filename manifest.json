@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "WiFi Auto Login",
+  "version": "1.2",
+  "description": "Automatically logs into the hostel WiFi when connected.",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://192.168.192.200/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/NRHS.png"
+    }},
+  "icons": {
+    "128": "icons/NRHS.png"
+  }
+}
