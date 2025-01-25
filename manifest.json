@@ -6,7 +6,9 @@
   "permissions": [
     "tabs",
     "scripting",
-    "activeTab"
+    "activeTab",
+    "alarms",
+    "storage"
   ],
   "host_permissions": [
     "https://192.168.192.200/*"
